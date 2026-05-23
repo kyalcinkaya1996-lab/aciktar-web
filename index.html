@@ -1,12 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
-    <title>AçıkTarla | Çok Yakında</title>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AçıkTarla | Üreticiden Halka</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8fdf8;
+            color: #333;
+            text-align: center;
+        }
+        .hero {
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #1e3c1e 0%, #2e7d32 100%);
+            color: white;
+            border-bottom: 5px solid #ffb300;
+        }
+        .hero h1 {
+            font-size: 2.8em;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+        .hero p {
+            font-size: 1.1em;
+            margin-bottom: 30px;
+            line-height: 1.6;
+            opacity: 0.95;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #ffb300;
+            color: #1e3c1e;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: bold;
+            border-radius: 50px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            transition: transform 0.2s;
+        }
+        .btn:active {
+            transform: scale(0.95);
+        }
+        .features {
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+        }
+        .feature-card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            max-width: 320px;
+            width: 90%;
+            border-left: 4px solid #2e7d32;
+        }
+        .feature-card h3 {
+            color: #2e7d32;
+            margin-top: 0;
+            font-size: 1.3em;
+        }
+        .feature-card p {
+            margin-bottom: 0;
+            color: #555;
+            line-height: 1.5;
+        }
+    </style>
 </head>
-<body style="text-align: center; font-family: sans-serif; padding-top: 20%;">
-    <h1 style="color: #2e7d32;">AçıkTarla</h1>
-    <p>Üreticiden halka, komisyonsuz, doğrudan ticaret ağı kuruluyor.</p>
-    <p><strong>Çok Yakında Sahadayız.</strong></p>
+<body>
+    <div class="hero">
+        <h1>AçıkTarla</h1>
+        <p>Üreticiden Halka, <strong>%0 Komisyonla</strong> Doğrudan Ticaret Ağı.<br><br>İlk 100 elit üreticiden biri olun, ömür boyu komisyonsuz satış hakkı kazanın.</p>
+        <a href="https://t.me/Sadrazamm_bot" class="btn">Hemen Ön Kayıt Ol</a>
+    </div>
+
+    <div class="features">
+        <div class="feature-card">
+            <h3>%0 Komisyon</h3>
+            <p>Aracı yok, kesinti yok. Alın terinizin ve emeğinizin tam karşılığı doğrudan cebinizde kalsın.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Doğrudan Satış</h3>
+            <p>Ürünlerinizi Türkiye'nin dört bir yanındaki tüketicilere araya kimseyi sokmadan ulaştırın.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Akıllı Asistan</h3>
+            <p>Karargahımızın 7/24 aktif yapay zeka asistanı ile tüm ticaret sürecinizi tek telefondan yönetin.</p>
+        </div>
+    </div>
 </body>
 </html>
